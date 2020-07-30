@@ -1,0 +1,82 @@
+.App {
+    background: linear-gradient(0deg, rgba(255, 187, 0, 1) 0%, rgba(255, 127, 0, 1) 100%);
+    max-width: 1600px;
+    min-height: 100vh;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .title {
+        width: 80%;
+        font-size: 55px;
+        margin-bottom: 5%;
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 12px 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-image: url('../assets/search.png');
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .center {
+        width: 100%;
+        display: contents;
+        justify-content: center;
+    }
+    .input {
+        width: 90%;
+    }
+    .info {
+        width: 100%;
+        background: #FFF3E4;
+    }
+    .headInfo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .city {
+        color: #505050;
+        font-size: 15px;
+        margin: auto 10px;
+    }
+    .weatherDiv {
+        display: flex;
+    }
+    .weatherCondition {
+        color: #505050;
+        margin: 20px 23px;
+        font-size: 50px;
+    }
+    button {
+        width: 10%;
+        border: 0;
+        cursor: pointer;
+        font-size: 2rem;
+        color: rgb(255, 127, 0);
+        background-color: #FFF2E4;
+    }
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
